@@ -9,7 +9,7 @@ The answers for problem 1 to 4 are in another pdf file.
 Problem 5:
 Select a skewed distribution from which to sample. Using R, demonstrate the convergence of the mean value of your samples to the Normal distribution. Assume you are making this demonstration to someone who has little or no statistical training. Your demonstration should take no more than 10 minutes. Along with your code, outline the commentary you would use in your demonstration.
 
-First, using the rbeta function to generate 1000 random variables between 0 and 5. The distribution of x is left-skewed.
+First, using the rbeta function to generate 2000 random variables between 0 and 5. The distribution of x is left-skewed.
 ```{r}
 set.seed(123)
 x=rbeta(2000,5,2)*5
